@@ -11,7 +11,7 @@ html, body {
 #parent{
     border: 1px solid rgb(146, 146, 146);
     width: 100%;
-    height:auto;
+    height:195px;
     /* background-color:  rgb(146, 146, 146); */
     padding: 0.4vw 0.5vw;
 }
@@ -92,9 +92,9 @@ h3:hover{
     background-color: #b8b0b038;
 }
 .big_searchbar{
-    position: relative;
+    position: absolute;
     border: 1px solid  #9e9b9b65;
-    border-radius: 30px;
+    border-radius: 35px;
     box-shadow:0px 3px 3px 1px #6e6b6b38;
     width: 800px;
     height:68px;
@@ -102,7 +102,7 @@ h3:hover{
     align-items: center;
     justify-content: center;
     gap:0.8vw;
-    top: -90px;
+    top: 80px;
     left: 20%;
 }   
 .big_searchbar button input{
@@ -123,7 +123,7 @@ h3:hover{
 } */
 .big_size{
     width: 300px;
-    height:67px;
+    height:68px;
     border-radius: 45px;
     border: none;
     border-bottom: #6e6b6b38;
@@ -136,7 +136,7 @@ h3:hover{
 }
 .small_size{
     width: 120px;
-    height:67px;
+    height:68px;
     border-radius: 35px;
     outline: none;
     border: none;
