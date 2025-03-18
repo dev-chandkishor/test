@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height:auto;
+    border-bottom: 4px solid #fcd800;
+    padding-top:8px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    border-right: 1px solid #dddddd;
+    margin-top: 0px;
+    width: 20%;
+    height: 100px;
+}
+.logo_icon{
+    /* border: 1px solid #dddddd; */
+    width: 50%;
+    height: 50%;
+    margin: 10px 25%;
+}
+    /* border: 1px solid #dddddd; */
+
+.menu{
+     /* border: 1px solid #dddddd; */
+     width:80vw;
+    height: 140px;
+}
+.uper_menu{
+    /* border: 1px solid red; */
+    height: 40%;
+    padding: 1vw 1vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.business{
+    /* border: 1px solid green; */
+    height: 100%;
+    padding:10px;
+    width:100px;
+    color: rgb(117, 117, 117);
+}
+.business:hover{
+    color: black;
+    border-bottom: 2px solid rgba(117, 117, 117, 0.24);
+}
+.business2{
+    border-bottom: 1px solid #00a6ca;
+    height: 100%;
+    padding:9px;
+}
+.user{
+    border: 1px solid #fcd800;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    border-radius: 25px;
+    background-color: #fcd800;
+    font-weight:bold;
+}
+.user:hover{
+    border: 1px solid #023547a8;
+    background-color: #012e3e;
+    color: white;
+}
+.span_button{
+    /* border: 1px solid #fc0093; */
+    height: 50%;
+    padding: 2vw 1vw;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1vw;
+}
+.user2{
+    height: 40px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    font-size: 13px;
+}
+.menu_top{
+    display: none;
+    font-size: 22px;
+}
+.lower_menu{
+    text-decoration: none;
+    border: 1px solid #dddddd;
+    height: 64%;
+    padding: 2.6vw 2.5vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0vw;
+    font-size: large;
+    font-family: sans-serif;
+    font-style: thin;
+    
+}
+
+.ls{
+   padding: 2vw 1vw;
+}
+.ls:hover{
+    border: 1px solid #fcd800;
+    background-color: #fcd800;
+}
+.hover_div{
+    border: 1px solid rgb(161, 168, 167);
+    width: 100%;
+    height:237px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw 30vw;
+   display: none; 
+}
+.hover_ul{
+    line-height: 2vw;
+}
+/* .hovel_li{
+
+} */
+.hover_ul2{
+    position: relative;
+    top: -30px;
+}
+.div_banner{
+    /* border: 1px solid gray; */
+    height: 353px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_banner{
+    /* border: 1px solid rgb(180, 21, 21); */
+    height: 100%;
+    width: 60%;
+    padding: 5vw 5vw;
+}
+.second_banner{
+    /* border: 1px solid rgb(1, 193, 241); */
+    height: 100%;
+    width: 40%;
+
+}
+.heading1{
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+.paragraph2{
+ color: gray;
+ font-size: 1.3vw;
+ padding-top: 10px;
+}
+.softaware{
+    width: 570px;
+    /* border: 1px solid #fcd800; */
+   height: auto;
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.button1{
+    width: 225px;
+    border: 1px solid #fcd800;
+    background-color: #fcd800;
+    height: 50px;
+    border-radius: 35px;
+}
+button p{
+    font-size: 18px;
+}
+.imgplaystore{
+    border: 1px solid #fcd800;
+    height: auto;
+    width: auto;
+}
+.third_banner{
+    width: 100%;
+    height: auto;
+    border: 1px solid #1d88e0;
+}
+.imggif{
+    border: 1px solid #00c0a6;
+    width: 50%;
+    height: auto;
+    background-image: url("bgdesert.jpg");
+    padding: 0;
+}
+.gif{
+    /* border: 1px solid #00c0a6; */
+    padding: 1vw 4vw;
+}
