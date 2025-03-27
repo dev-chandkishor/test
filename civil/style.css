@@ -96,7 +96,7 @@
 }
 .lower_menu{
     text-decoration: none;
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     height: 64%;
     padding: 2.6vw 2.5vw;
     display: flex;
@@ -146,6 +146,7 @@
     align-items: center;
 }
 .first_banner{
+    background-color: #f7f9fa;
     /* border: 1px solid rgb(180, 21, 21); */
     height: 100%;
     width: 60%;
@@ -191,19 +192,131 @@ button p{
     height: auto;
     width: auto;
 }
+.empaty{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+.empaty_span{
+    border: 2px solid #7fa1b1;
+    width: 37px;
+    height: 1px;
+    background-color: #7fa1b1;
+
+}
 .third_banner{
+    margin-top: 20px;
     width: 100%;
     height: auto;
-    border: 1px solid #1d88e0;
+    /* border: 1px solid #1d88e0; */
+    display: flex;
 }
 .imggif{
-    border: 1px solid #00c0a6;
+    /* border: 1px solid #00c0a6; */
     width: 50%;
     height: auto;
     background-image: url("bgdesert.jpg");
     padding: 0;
+    background-color: #e6edf1;
 }
 .gif{
     /* border: 1px solid #00c0a6; */
     padding: 1vw 4vw;
+}
+.fouth_banner{
+    background-color: #f7f9fa;
+    width: 50%;
+    height:650px   ;
+}
+.heading2{
+    font-family: sans-serif;
+    font-size: 3.5vw;
+    padding-top: 120px;
+    font-weight:100;
+    color: #1d1d1d;
+    width: 450px;
+    padding-left: 10px;
+}
+/* div span i{
+    width: 50px;
+} */
+ /* .fouth_banner{
+    border: 1px solid green;
+ } */
+ .text_banner{
+   margin-top: 50px;
+ }
+ .imgaewithp{
+    display: grid;
+    /* border: 1px solid red; */
+    gap: 2vw;
+ }
+ div span p{
+    width: 400px;
+    /* border: 1px solid rgb(0, 255, 242); */
+    padding-left: 20px;
+    margin-left: 5px;
+    margin-top: -46px;
+    color: #585a5a;
+ }
+ .imgwithp{
+    /* border: 1px solid rgb(255, 81, 0); */
+    padding-top: 3vw;
+ }
+ .stayloan{
+    border-bottom: 3px solid yellow;
+ }
+ .sbutton{
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fcd800;
+    background-color: #fcd800;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2vw 1vw;
+ }
+@media (max-width:1200px) {
+    .lower_menu{
+        display: none;
+    }
+    .box{
+        height: 60px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .menu_icon{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu_top{
+        display: block;
+    }
+    .business{
+        display: none;
+    }
+    .business2{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .user2{
+        display: none;
+    }
+    .menu{
+        margin-top: 70px;
+    }
+    .logo_icon{
+        width: 70px;
+        height: 40px;
+    }
+    .logo{
+        margin-top: 30px;
+    }
 }
